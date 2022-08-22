@@ -4,18 +4,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        //Light Mode
-        "bg-light": "#fffefe",
-        "card-light": "#EAE9E9",
-        "txt-light": "#2c2a2d",
-        "accent-light": "#3972ab",
-        "alt-accent-light": "#ea242e",
-        //Dark Mode
-        "bg-dark": "#121212",
-        "card-dark": "#313D4A",
-        "txt-dark": "#f1faee",
-        "accent-dark": "#9ca1a0",
-        "alt-accent-dark": "#de3851",
+        background: "#121212",
+        card: "#313D4A",
+        txt: "#f1faee",
+        accent: "#9ca1a0",
+        "alt-accent": "#de3851",
       },
     },
   },

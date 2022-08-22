@@ -19,11 +19,11 @@ const App = () => {
   ];
 
   return (
-    <div className="flex flex-col justify-center items-center h-screen bg-bg-light dark:bg-bg-dark text-center">
-      <h1 className="font-bold text-2xl text-txt-light dark:text-txt-dark px-4">
-        Hey there, my names <span className="dark:text-alt-accent-dark text-alt-accent-light">Peter</span>. I&apos;m a software developer based out of New York with a passion for building clean, performant, and responsive web applications.
+    <div className="flex flex-col justify-center items-center h-screen bg-background text-center">
+      <h1 className="font-bold text-2xl text-txt px-4">
+        Hey there, my names <span className="text-alt-accent">Peter</span>. I&apos;m a software developer based out of New York with a passion for building clean, performant, and responsive web applications.
       </h1>
-      <h2 className="font-bold text-xl mb-4 text-txt-light dark:text-txt-dark mt-4 pb-2">
+      <h2 className="font-bold text-xl mb-4 text-txt mt-4 pb-2">
         Checkout my projects on GitHub and lets connect on LinkedIn!
       </h2>
       {Socials.map(({ icon, url, linkTo, delay, name }) => (
