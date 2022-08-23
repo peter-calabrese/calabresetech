@@ -1,10 +1,21 @@
-import CustomCard from "../components/CustomCard.jsx";
-
+// import Cube from '../components/Cube';
+import { Canvas } from "@react-three/fiber";
+import { OrbitControls } from "@react-three/drei";
+import Cube from "../components/Cube";
 const App = () => {
 
 
   return (
-    <h1>Landing Page</h1>
+    <div className='h-screen flex justify-center items-center'>
+      <Canvas >
+        <OrbitControls
+          enablePan={false}
+          enableZoom={true}
+          enableRotate={true}
+        />
+        <Cube />
+      </Canvas>
+    </div>
   );
 }
 
