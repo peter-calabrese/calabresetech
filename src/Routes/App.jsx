@@ -4,7 +4,7 @@ const App = () => {
   const Socials = [
     {
       icon: "/github.png",
-      url: "https://github.com/calabree",
+      url: "https://github.com/peter-calabrese",
       linkTo: "Github",
       delay: 0.6,
       name: "calabree",
