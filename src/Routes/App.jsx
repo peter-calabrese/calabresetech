@@ -7,14 +7,14 @@ const App = () => {
       url: "https://github.com/peter-calabrese",
       linkTo: "Github",
       delay: 0.6,
-      name: "calabree",
+      name: "GitHub",
     },
     {
       icon: "/linkedin.png",
       url: "https://linkedin.com/in/peter-calabrese/",
       linkTo: "LinkedIn",
       delay: 0.8,
-      name: "peter-calabrese",
+      name: "LinkedIn",
     }
   ];
 
